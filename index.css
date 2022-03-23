@@ -1,0 +1,627 @@
+body{
+    background-image: url("black-bluish-bg.png");
+    font-family:  'Times New Roman', serif;
+    color:white;
+    margin: 0;
+    padding: 0; 
+}
+
+ 
+
+h2{
+    
+    font-family: monospace;
+    font-size: 32px;
+}
+.container{
+    text-align:left;
+    margin-top: 160px;
+    margin-left: 100px;
+}
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: 80px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+     .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 40px;
+      margin-right: 40px;
+      margin-left: 40px;
+    }
+    
+    .button {
+      width: 140px;
+      height: 45px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      font-weight: 500;
+      color: #000;
+      background-color: #fff;
+      border: none;
+      border-radius: 45px;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+      outline: none;
+      }
+    
+    .button:hover {
+      background-color: #232412;
+      box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+      color: #fff;
+      transform: translateY(-7px);
+    }
+    
+.btn{
+    text-align: left;
+    border: none;
+    background: rgba(255, 102, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: 'Times New Roman', serif;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 1s;
+
+}
+.btn:hover
+{
+    margin-left: 10px;
+
+    background: #ffffff;
+    color: rgb(194, 98, 9);
+}
+.bnn
+{   font-size: 12px;
+    text-align: left;
+    border: 1px solid #ffa735;
+    background: rgba(255, 102, 0, 0);
+    color: rgb(194, 98, 9);
+    padding: 10px 20px;
+    font-family:  'Times New Roman', serif;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 1s;
+}
+.bnn:hover
+{
+     margin-left: 10px;
+
+    background: #ffa735;
+    color: rgb(255, 255, 255);
+}
+.bn{
+     text-align: left;
+    border: 1px solid #ffa735;
+    background: rgba(255, 102, 0, 0);
+    color: rgb(194, 98, 9);
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family:  'Times New Roman', serif;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 1s;
+}
+.bn:hover
+{
+    margin-left: 10px;
+
+    background: #ffa735;
+    color: rgb(255, 255, 255);
+}
+.btn1{
+    position: absolute;
+    left: 20px;
+    top: 200px;
+}
+.btn2{
+    position: absolute;
+    left: 20px;
+    top: 500px;
+}
+.dashboardbtn{
+    position: absolute;
+    width: 240px;
+    left: 20px;
+    top: 160px;
+}
+.controlbtn{
+    position: absolute;
+    width: 240px;
+    left: 20px;
+    top: 240px;
+}
+.mlbtn{
+    position: absolute;
+    width: 240px;
+    left: 20px;
+    top: 320px;
+}
+.usersbtn
+{
+    position: absolute;
+    width: 240px;
+    left: 20px;
+    top: 400px;
+}
+
+.phbutton {
+    position: absolute;
+    font-size: 15px;
+    right: 80px;
+    top: 5px;
+    border: 1px solid #ffbe6a;
+    border-width: 1px;
+    background-image: url(https://www.zastavki.com/pictures/640x480/2015/Backgrounds_Orange_gradient_background_096901_29.jpg);
+    color: rgb(255, 255, 255);
+    
+}
+.dobutton {
+    position: absolute;
+    font-size: 15px;
+    right: 13px;
+    bottom: 255px;
+    border: 0.5px solid #ffa735;
+}
+.phbutton2 {
+    position: absolute;
+    font-size: 15px;
+    right: 80px;
+    top: 5px;
+    border: 1px solid #ffbe6a;
+    border-width: 1px;
+    
+    
+}
+.dobutton2 {
+    position: absolute;
+    font-size: 15px;
+    right: 13px;
+    bottom: 255px;
+    border: 0.5px solid #ffa735;
+    background-image: url(https://www.zastavki.com/pictures/640x480/2015/Backgrounds_Orange_gradient_background_096901_29.jpg);
+    color: rgb(255, 255, 255);
+}
+ 
+.bodbutton
+{  right: 70px;
+   position: absolute; 
+}
+.codbutton
+{   right: 2px;
+    position: absolute;
+}
+
+#customer1{
+    font-size: 36px;
+    font-family:  'Times New Roman', serif;
+    position: absolute;
+    top:20px;
+    left:200px;
+    color:rgb(0, 0, 0);
+    
+}
+#consumption1{
+    font-size: 36px;
+    font-family:  'Times New Roman', serif;
+    position: absolute;
+    top:20px;
+    left:600px;
+}
+#rectangle-maps{
+    width:1000px;
+    height:600px;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    border-radius: 15px;
+    background:rgb(255, 255, 255);
+}
+#rectangle1{
+    width:300px;
+    height:600px;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    border-radius: 30px;
+    background-image: url("orange-gradient.png");
+    background-repeat: repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family:  'Times New Roman', serif;
+    
+}
+
+#rectangle2{
+    width:1000px;
+    height:300px;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    border-radius: 15px;
+    background:rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to right,rgb(33, 39, 56), rgb(56, 58, 77));
+}
+
+
+#rectangle2-1{
+    width:490px;
+    height:300px;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right,rgb(33, 39, 56), rgb(56, 58, 77));
+}
+#rectangle2-2{
+    width:1000px;
+    height:600px;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right,rgb(33, 39, 56), rgb(56, 58, 77));
+}
+#rectangle2-2-1 {
+    width: 900px;
+    height: 201px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    opacity: 0.2;
+    border-radius: 15px;
+    background: rgb(124, 124, 124);
+    overflow-y: scroll;
+}
+#rectangle2-2-2 {
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    border-radius: 15px;
+    background: rgb(255 255 255);
+}
+#rectangle2-2-2:hover{
+    opacity: 0.7;
+    }
+#rectangle2-2-3 {
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+}
+#rectangle2-2-3:hover{
+    opacity: 0.7;
+}
+
+#rectangle2-2-4{
+    width:800px;
+    height:100px;
+    position: absolute;
+    top: 320px;
+    left: 50px;
+    border-radius: 15px;
+    background:rgb(255, 255, 255);
+    }    
+#rectangle2-2-4:hover{
+    opacity: 0.7;
+}
+#rectangle2-3 {
+    bottom: 20px;
+    left: 51px;
+    width: 371px;
+    height: 215px;
+    position: absolute;
+    background-image: url(orange-gradient.png);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+#rectangle3{
+    width:490px;
+    height:280px;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    border-radius: 15px;
+    background:rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to right,rgb(33, 39, 56), rgb(56, 58, 77));
+}
+#rectangle4{
+    width:490px;
+    height:280px;
+    position: absolute;
+    top: 400px;
+    left: 910px;
+    border-radius: 15px;
+    background:rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to right,rgb(33, 39, 56), rgb(56, 58, 77));
+}
+#rectangle6{
+    width:1000px;
+    height:290px;
+    position:absolute;
+    top: 700px;
+    left: 400px;
+    border-radius: 15px;
+    background:rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#rectangle5{
+    width:490px;
+    height:300px;
+    position:absolute;
+    top: 80px;
+    left: 910px;
+    border-radius: 15px;
+    background:rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to right,rgb(33, 39, 56), rgb(56, 58, 77));
+
+}
+#curve_chart{
+    width:900px;
+    height:280px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 15px;
+}
+.rect {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    left: 1350px;
+}
+.motor1dot{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    height:15px;
+    width: 15px;
+    border-radius:50%;
+    background-color: white;
+}
+.dot {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 80px;
+    width: 80px;
+    background-image: url("rudu.jpg");
+    object-fit: cover;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  #pumps
+  {
+      position: absolute;
+      top: 0px;
+      left: 70px;
+  }
+  #currentvalue{
+      position: absolute;
+      top:50px;
+      left: 150px;
+  }
+  #chart_div{
+    width: 400px; 
+    height: 120px;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+  }
+  #map-marker1{
+      width: 20px;
+      height: 30px;
+      position: absolute;
+      top: 260px;
+      left: 270px;
+  }
+  #map-marker1:hover + #hide1{
+    display: block;
+  }
+  #hide1{
+      display: none;
+  }
+  #marker1-display{
+    width:200px;
+    height:100px;
+    position: absolute;
+    top: 160px;
+    left: 280px;
+    border-radius: 15px;
+    background:rgb(255, 255, 255);
+  }
+ .motorform
+ {
+        position: absolute;
+    display: flex;
+    left: -40px;
+ }
+ .paraform
+ {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    font-size: 26px;
+ }
+#customer1checkbox {
+    position: absolute;
+    top: -54px;
+    left: 560px;
+}
+ #customer2checkbox {
+    position: absolute;
+    top: -54px;
+    left: 560px;
+}
+#customer3checkbox {
+    position: absolute;
+    top: -54px;
+    left: 560px;
+}
+.usersbutton {
+    text-align: left;
+    border: none;
+    background-image: url(https://www.zastavki.com/pictures/640x480/2015/Backgrounds_Orange_gradient_background_096901_29.jpg);
+    color: rgb(255, 255, 255);
+    padding: 8px 18px;
+    font-size: 18px;
+    font-family: 'Times New Roman', serif;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 1s;
+    position: absolute;
+    top: 30px;
+    right: 280px;
+}
+.pendingbutton {
+    text-align: left;
+    border: 1px solid #ffa735;
+    background: rgba(255, 102, 0, 0);
+    color: rgb(194, 98, 9);
+    padding: 8px 18px;
+    font-size: 16px;
+    font-family: 'Times New Roman', serif;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 1s;
+    position: absolute;
+    top: 30px;
+    left: 701px;
+}
+#dosingimg{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    height: 150px;
+    width: 150px;
+}
+#recirculationimg{
+    position: absolute;
+    top: 150px;
+    left: 270px;
+    height: 100px;
+    width: 120px;
+}
+#suctionimg{
+    position: absolute;
+    top: 150px;
+    left: 490px;
+    height: 100px;
+    width: 120px;
+}
+#submersimg{
+       position: absolute;
+    top: 120px;
+    left: 700px;
+    height: 180px;
+    width: 180px;
+}
+#motor1status{
+    font-size: 32px;
+    position: absolute;
+    top: 0px;
+    left: 80px;
+}
+#motor2status{
+    font-size: 32px;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+#motor3status{
+    font-size: 32px;
+    position: absolute;
+    top: 0px;
+    left: 520px;
+}
+#motor4status{
+    font-size: 32px;
+    position: absolute;
+    top: 0px;
+    left: 740px;
+}
+input[name=parasubmit]{
+    position: absolute;
+    top:180px;
+    left:100px;
+}
+input[name=motorsubmit]{
+    position: absolute;
+    top:0px;
+    left:900px;
+}
+input[type=submit]{
+  border-radius: 15px; 
+  color: white;
+  background-color: #18a7f9;
+}
+input[type=submit]:hover{
+  border-radius: 15px; 
+  color: white;
+  background-color: #7bcdfc;
+}
